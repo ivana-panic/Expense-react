@@ -4,25 +4,25 @@ function App() {
   const expense = [
     {
       id: "e1",
-      name: "book",
+      name: "Book",
       date: new Date(2021, 2, 15),
       price: "12e",
     },
     {
       id: "e2",
-      name: "phone",
+      name: "Phone",
       date: new Date(2021, 4, 19),
       price: "300e",
     },
     {
       id: "e3",
-      name: "pencil",
+      name: "Pencil",
       date: new Date(2020, 9, 5),
       price: "5e",
     },
     {
       id: "e4",
-      name: "pants",
+      name: "Pants",
       date: new Date(2020, 12, 1),
       price: "26e",
     },

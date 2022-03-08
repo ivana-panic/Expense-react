@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses";
 
 function App() {
   const expense = [
@@ -30,26 +30,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="expense-title">Your expense</h1>
-      <ExpenseItem
-        name={expense[0].name}
-        date={expense[0].date}
-        price={expense[0].price}
-      ></ExpenseItem>
-      <ExpenseItem
-        name={expense[1].name}
-        date={expense[1].date}
-        price={expense[1].price}
-      ></ExpenseItem>
-      <ExpenseItem
-        name={expense[2].name}
-        date={expense[2].date}
-        price={expense[2].price}
-      ></ExpenseItem>
-      <ExpenseItem
-        name={expense[3].name}
-        date={expense[3].date}
-        price={expense[3].price}
-      ></ExpenseItem>
+      <Expenses items={expense}></Expenses>
     </div>
   );
 }

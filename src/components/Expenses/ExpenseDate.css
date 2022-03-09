@@ -1,0 +1,9 @@
+.expense-date {
+  width: 15%;
+  background-color: #4b4b4b;
+  border-radius: 10px;
+  text-align: center;
+  border: 0.5px solid white;
+  font: 1.2em "Fira Sans", sans-serif;
+  color: white;
+}
